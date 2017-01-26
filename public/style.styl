@@ -1,0 +1,61 @@
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  width: 8em;
+}
+
+thead th {
+  vertical-align: top;
+}
+
+th:first-child {
+  width: 20em;
+}
+
+.position {
+  display: block;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 0.6em;
+}
+
+tbody {
+  th {
+    border-left: 20px solid #444;
+    text-align: left;
+  }
+  tr.party-D th {
+    border-left-color: #009;
+  }
+  tr.party-R th {
+    border-left-color: #900;
+  }
+  th, td {
+    border-top: 1px solid #ccc
+  }
+}
+
+tr.party-D td.vote-Yea,
+tr.senator-412545 td.vote-Yea,
+tr.senator-400357 td.vote-Yea {
+  background: #900;
+  color: #fff;
+}
+
+th a {
+  display: block;
+  font-weight: normal;
+  color: #000;
+}
+
+footer {
+  padding: 25px;
+  color: #ccc;
+}
+
+footer a {
+  color: inherit;
+}
